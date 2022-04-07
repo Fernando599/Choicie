@@ -72,15 +72,14 @@ a {
   font-size: 14px;
 }
 
-.menu a:hover::after {
+.menu a:hover:after {
   content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 35%;
-  display: block;
   width: 20px;
-  border-radius: 20px;
   height: 3px;
+  display: block;
+  position: absolute;
+  bottom: 1px;
+  left: 38%;
   background-color: #f2cf7e;
 }
 
