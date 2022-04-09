@@ -465,3 +465,7 @@ a {
   position: absolute;
   left: -50px;
 }
+
+.step-2-items a:hover {
+  background-color: #f1be46;
+}
