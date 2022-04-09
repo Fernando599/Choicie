@@ -121,7 +121,7 @@ a {
 }
 
 .dispositivos a:last-child:hover {
-  background: #ffb300;
+  background: #f1be46;
 }
 
 .dispositivos a:last-child::before {
@@ -176,7 +176,7 @@ a {
 }
 
 .container-introducao a:hover {
-  background: #ffb300;
+  background: #f1be46;
 }
 
 .container-introducao img {
