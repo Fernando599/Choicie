@@ -326,12 +326,142 @@ a {
 
 .how-to-use {
   background-color: #f9f5e6;
-  display: flex;
-  justify-content: center;
+  height: 45em;
 }
 
 .how-to-use h2 {
   padding: 40px 0;
   font-weight: 700;
   font-size: 36px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.use-container {
+  width: 1200px;
+  margin: 20px auto;
+  height: 35em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 750px;
+  padding-right: 50px;
+  border-right: 1.5px #e5e0cd solid;
+}
+
+.use-container .item {
+  max-width: 400px;
+  height: 250px;
+  display: block;
+  margin-top: -20px;
+}
+
+.use-container .item1 {
+  width: 320px;
+  position: relative;
+}
+.use-container .item1::before {
+  content: "";
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: -1em;
+  background: url("../img/how-to-use/1.png") no-repeat center;
+}
+
+.use-container .item2 {
+  width: 320px;
+  position: relative;
+}
+.use-container .item2::before {
+  content: "";
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: -2em;
+  background: url("../img/how-to-use/2.png") no-repeat center;
+}
+
+.use-container .item3 {
+  width: 320px;
+  position: relative;
+}
+.use-container .item3::before {
+  content: "";
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: -1em;
+  background: url("../img/how-to-use/3.png") no-repeat center;
+}
+
+.use-container .item4 {
+  width: 320px;
+  position: relative;
+}
+.use-container .item4::before {
+  content: "";
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: -1em;
+  background: url("../img/how-to-use/4.png") no-repeat center;
+}
+
+.step-2-items {
+  width: 300px;
+  margin-right: 60px;
+  position: relative;
+}
+
+.step-2-items p {
+  position: relative;
+}
+
+.step-2-items p:nth-child(1):before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  background: url("../img/how-to-use/language.png") no-repeat center center;
+}
+
+.step-2-items p:nth-child(2):before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  background: url("../img/how-to-use/reviews.png") no-repeat center center;
+}
+
+.step-2-items p:nth-child(3):before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  background: url("../img/how-to-use/translator.png") no-repeat center center;
+}
+
+.step-2-items a {
+  padding: 10px 30px;
+  background-color: #f2cf7e;
+  border-radius: 50px;
+  color: #000;
+  display: inline-block;
+  margin-top: 40px;
+  position: absolute;
+  left: -50px;
 }
