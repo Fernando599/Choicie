@@ -469,3 +469,44 @@ a {
 .step-2-items a:hover {
   background-color: #f1be46;
 }
+
+/* World */
+
+.world {
+  width: 1100px;
+  margin: 30px auto;
+  height: 45em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.world div:first-child {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.world div h2 {
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.world div p:first-child {
+  text-transform: uppercase;
+  color: #3b2186;
+  font-size: 16px;
+  text-align: center;
+}
+
+.world div p:last-child {
+  text-align: center;
+  color: rgb(88, 88, 88);
+  margin-bottom: 50px;
+}
+
+.world img {
+  width: 50em;
+  margin: 0 auto;
+}
